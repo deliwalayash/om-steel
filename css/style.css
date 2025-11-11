@@ -112,15 +112,17 @@ h6,
 .navbar.sticky-top {
     top: -100px;
     transition: .5s;
+    padding-right: 0px !important;
 }
 
 .navbar .navbar-brand {
     position: relative;
-    padding-right: 50px;
+    padding-right: 10px;
     height: 75px;
     display: flex;
     align-items: center;
     background: var(--primary);
+    padding-left: 0 !important;
 }
 
 /* .navbar .navbar-brand::after {
